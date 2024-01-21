@@ -154,7 +154,7 @@ private:
 
   void exportSettings(JsonArray json) override {
     {
-      JsonObject setting = json.createNestedObject();
+      JsonObject setting = json.add<JsonObject>();
       setting["type"]    = "number";
       setting["title"]   = "MIDI";
       setting["label"]   = "Channel";
@@ -183,14 +183,14 @@ private:
 
   void exportConfiguration(JsonObject json) override {
     json["#midi"]         = "The MIDI settings";
-    JsonObject json_midi  = json.createNestedObject("midi");
+    JsonObject json_midi  = json["midi"].to<JsonObject>();
     json_midi["#channel"] = "The channel to send notes and control values to";
     json_midi["channel"]  = config.channel + 1;
   }
 
   void exportInput(JsonObject json) override {
     // The range of notes we receive to drive the LEDs.
-    JsonObject json_chromatic = json.createNestedObject("chromatic");
+    JsonObject json_chromatic = json["chromatic"].to<JsonObject>();
     json_chromatic["start"]   = V2MIDI::C(3);
     json_chromatic["count"]   = Ports.count;
   }
@@ -199,12 +199,12 @@ private:
     json["channel"] = config.channel;
 
     // List of controllers we send out; generic CC values, one per channel.
-    JsonArray json_controllers = json.createNestedArray("controllers");
+    JsonArray json_controllers = json["controllers"].to<JsonArray>();
     for (uint8_t i = 0; i < Ports.count; i++) {
       char name[11];
       sprintf(name, "Channel %d", i + 1);
 
-      JsonObject json_controller = json_controllers.createNestedObject();
+      JsonObject json_controller = json_controllers.add<JsonObject>();
       json_controller["name"]    = name;
       json_controller["number"]  = V2MIDI::CC::GeneralPurpose1 + i;
     }
