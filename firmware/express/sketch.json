@@ -1,0 +1,6 @@
+{
+  "cpu": {
+    "fqbn": "versioduo:samd:express",
+    "name": "V2 express"
+  }
+}
