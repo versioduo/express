@@ -8,7 +8,8 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2025-10-27")
+		(date "2026-02-13")
+		(rev "2026-02-13")
 	)
 	(layers
 		(0 "F.Cu" signal "Front")
@@ -133,7 +134,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -146,7 +147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -159,7 +160,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -172,47 +173,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30defdf8-1963-4931-97a9-93140b39c69c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/2bae0554-a6b5-41e1-a040-fa4014ad6519")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "bd266d5e-1ed0-4f26-be47-29a3b86a5c29")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "bb59235d-7e48-4daf-bff9-40d1d828c7c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -257,7 +222,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
+		(property "Value" "2mm_Pad_5.2mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -270,7 +235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -283,7 +248,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -296,50 +261,14 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac6819b2-20ef-4c57-aab5-3c89b1a43ee3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/b5a9ea4e-8814-429b-a837-07a2647096fd")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.54 1.27)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "992639dd-701b-4ec4-9bb0-1c1b9233e330")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "d05a2873-f9f7-4695-a578-e9a41682326c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
-			(size 5.4 5.4)
+			(size 5.2 5.2)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
@@ -381,7 +310,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -394,7 +323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -407,7 +336,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -420,47 +349,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c5ce939-2664-4bf4-b544-15d18422637a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/04c7cd26-4a12-4507-8e0f-b56c6b5634fd")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b7939a9d-8665-4910-85bd-d076fef9b70d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1d58b8eb-94c0-4440-b118-0c9ca1695ec1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -493,7 +386,7 @@
 		(uuid "552eacff-0ed8-4174-aeef-cc4ed8dd5e1b")
 		(at 123.75 110)
 		(property "Reference" "ICON101"
-			(at 0 -3.35 0)
+			(at 0 -3.319443 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "734a707e-d795-4d7c-818c-086edc86250f")
@@ -505,7 +398,7 @@
 			)
 		)
 		(property "Value" "V2-logo"
-			(at 0 3.73 0)
+			(at 0 3.5 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab62b28f-f0da-42a8-8e36-bef3e0ad8046")
@@ -517,7 +410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0.096758 0.030557 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -530,7 +423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0.096758 0.030557 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -538,19 +431,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2db70ed6-19bd-4f00-8140-281684636c36")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -571,7 +451,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "0cd29df8-ee9d-4319-8c37-6fc648814a8e")
+			(uuid "908301e3-811f-4d9d-8295-a7e48e60c369")
 		)
 		(fp_poly
 			(pts
@@ -586,7 +466,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "05a40fda-5c22-40a7-9f6a-36495d05b444")
+			(uuid "f1941610-6864-4dd9-b8bd-e2c5976e3518")
 		)
 		(fp_poly
 			(pts
@@ -609,7 +489,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "6dfb8f07-d1b1-461e-a535-cec77fd23afa")
+			(uuid "a4b1053c-389e-47bb-95b3-8e87ac6c9984")
 		)
 		(fp_poly
 			(pts
@@ -623,7 +503,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "b191b2bf-d4a6-415a-bbad-fe195e2133b2")
+			(uuid "39acca19-1e8c-4aaf-be53-12732ed9a129")
 		)
 		(fp_poly
 			(pts
@@ -638,7 +518,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "3dd9fb88-7ab0-4b93-8d2b-2e60f75cfa02")
+			(uuid "a5d6e1ce-586f-4385-b89d-f53a46e25194")
 		)
 		(fp_poly
 			(pts
@@ -661,13 +541,13 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "64c74db3-796a-4d34-b667-96e533bf038d")
+			(uuid "12dcd2a4-eb40-423d-9380-29560b6236e3")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.Cu")
-			(uuid "14aaf9b7-303c-4d8b-a2de-4faa8b568d1c")
+			(uuid "181b753a-b191-4d25-9256-33673c45a85c")
 			(hatch edge 0.508)
 			(connect_pads
 				(clearance 0)
@@ -715,7 +595,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -728,7 +608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -741,7 +621,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -754,47 +634,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f26c3c79-10b9-4cf1-a8e1-cc5b584126da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/728e1799-19b2-425c-b782-409e717b52ad")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d991166a-aae2-4ad0-a44d-bdd4ec5b1c9a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "e9586c6b-d0ab-424e-a270-71027bd25a3a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -839,7 +683,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
+		(property "Value" "2mm_Pad_5.2mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -852,7 +696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -865,7 +709,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -878,50 +722,14 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2f46270c-c815-403d-bc18-153cf62f454a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/98ac4b2a-4d95-4694-a16b-703832ea3e92")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.54 1.27)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b9d15d93-2e8d-4c49-8e1c-4655166f898d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "36977708-ca05-4ac4-84c6-b3569d80725f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
-			(size 5.4 5.4)
+			(size 5.2 5.2)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
@@ -963,8 +771,8 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_1mm"
-			(at 0 2.73 0)
+		(property "Value" "1mm"
+			(at 0 2.23 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -976,7 +784,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -989,7 +797,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1002,41 +810,17 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68835975-057e-4aee-b984-8fc07dc197f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/fe49530f-fb70-42cd-8eec-8a43f7b0cde7")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0.6 0)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a7eccdd6-d3cd-43ba-b721-927187aad72e")
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 1 1)
 			(drill 1)
 			(layers "*.Mask")
-			(uuid "2b348794-c544-4f94-bd4e-f61697fbe096")
+			(uuid "d0da2624-38e6-4985-8da9-8ccbc6d8f7cd")
 		)
 		(embedded_fonts no)
 	)
@@ -1057,7 +841,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1070,7 +854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1083,7 +867,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1096,47 +880,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c8badcd-aa47-4ff3-9fbe-3bf13392b0ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/599ea613-a16e-4c58-bbef-223696fbd8d1")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3e93ff1f-674b-46cd-95a0-f7b2d4dde9cc")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "aedd0ec5-3b6c-4d5d-9535-edaf6a75d598")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -1181,7 +929,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1194,7 +942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1207,7 +955,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1220,47 +968,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a1841e0-531b-4ed6-a83c-daee7c58b2a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/566d496b-8b12-4abd-a6fe-7ce683ab0b6d")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "5156eebf-e664-436f-bf05-338ab313ec49")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8bdef4ea-f10c-47f1-a3ac-6f65c8425f79")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -1305,7 +1017,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1318,7 +1030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1331,7 +1043,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1344,47 +1056,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9833a299-d149-46ac-a01a-8f9a71b22213")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6cc76df4-5ba4-467b-9eaa-b094869cd01d")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "1fddb45e-0822-4851-bfe6-6f42786bbe0c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8f5b008a-a039-4210-b2b9-6c550fb8691a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -1429,7 +1105,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1442,7 +1118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1455,7 +1131,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1468,47 +1144,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88090ab1-2a47-446f-839b-fb526a9320c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e9a0567d-b240-472b-b6f6-7dbc4d1d3108")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "19a82a80-3058-4411-9460-f8843b35d1d7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "3c9db7f9-14ae-4c33-9b78-5ef9fd0ee714")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -1553,7 +1193,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1566,7 +1206,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1579,7 +1219,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1592,47 +1232,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99f2a21f-f577-4f33-a0c8-dbce79044fe0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/3d0b6987-5e54-4df4-b923-f248f71f1206")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "23883b67-f604-47f6-b9b9-4af9dd0de7b5")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "b1b6c0e3-fef7-40db-9fc3-cd030fda3dfb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -1677,7 +1281,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1690,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1703,7 +1307,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1716,47 +1320,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "446f3f58-f8b3-418b-ae2b-d5d09fc699b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/4af16624-e5e9-4975-8fdd-f178db4f2bbd")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "25368dc5-333f-4b5f-be9d-d9c452e4b5b6")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "7f413ee1-c6a8-42ba-8b0f-3a4c48a6642b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -1801,7 +1369,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1814,7 +1382,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1827,7 +1395,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1840,47 +1408,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0402fd32-69d6-4856-bd86-646f12a6fdc3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/116ad519-9d7c-431a-bcba-65641ca826bd")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "f275c620-0349-490d-b0df-02085cfbd09d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a2c46a09-b75f-4bfc-8760-0cf742230d02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -1925,7 +1457,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1938,7 +1470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1951,7 +1483,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1964,47 +1496,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d33532c-f0aa-4519-8b4f-b63379af0328")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/75aae69a-ad1f-4261-84fa-43fc18140c51")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "f861332d-3dba-4a08-be5f-901d1da8e443")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "d8bf15bb-7652-4b6a-835f-65c6dec78b25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -2049,7 +1545,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2062,7 +1558,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2075,7 +1571,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2088,47 +1584,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6eaaf99f-7e94-4538-a214-d66fbbb30c9e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ebfda4b9-f41d-47f8-a32c-efa312c65f72")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "92ff0efc-d874-4740-af05-858b53877b69")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "48b8ff3f-5c77-4385-9db1-fe179982b8e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -2173,7 +1633,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2186,7 +1646,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2199,7 +1659,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2212,47 +1672,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b1bf9f3-8db6-446b-8c98-e48c7840fc63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/8d48cd7e-c998-49fb-b7ba-826c6b3e288e")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "5e1d3d33-d929-4b7f-a1c0-97c1b90d8169")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "bc331f76-cde6-4ba8-aea7-a233c035610a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -2297,7 +1721,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2310,7 +1734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2323,7 +1747,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2336,47 +1760,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1b81979-161f-4fd2-a62d-199eeb339739")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/bc74b301-54f7-4cab-a868-e7dd5ef01016")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "54a6f903-630c-4828-894c-76021046e52a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "7df05c87-7870-4474-b4dd-9a4779d424d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0 90)
 			(size 2.4 2.4)
@@ -2458,19 +1846,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f150127b-8e26-41c9-9baa-16980e6a6b75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/96abbcfb-4646-4a7d-bbca-fde2aab97088")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
@@ -2483,7 +1858,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "63dbac73-4139-47bf-b2ef-6361671f5e34")
+			(uuid "6b5833c8-cfcc-4dd4-b81c-7331b7f6578f")
 		)
 		(fp_line
 			(start -1.65 -5.1)
@@ -2493,7 +1868,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0337cb4c-b396-4cd0-b66e-8b2f1db4b4f0")
+			(uuid "29543163-542d-4a49-b100-7a377022ea45")
 		)
 		(fp_line
 			(start 1.65 5.1)
@@ -2503,7 +1878,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bf5b0876-0297-4bdb-a11d-91ff128ce61f")
+			(uuid "84da23db-d12f-4973-92a6-30e3b95668f8")
 		)
 		(fp_line
 			(start -1.65 5.1)
@@ -2513,35 +1888,35 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "489cf3b3-4370-4d8b-a303-0aa3aa566f46")
+			(uuid "1847b52f-d2ea-48af-8902-a622ddbb62fb")
 		)
 		(pad "" np_thru_hole circle
 			(at -1.4 -4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "3f858da6-67c9-462e-895b-17e44455539d")
+			(uuid "28174d9f-cf6c-4eec-9773-65fd63762994")
 		)
 		(pad "" np_thru_hole circle
 			(at -1.4 4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "00207203-235a-4793-9341-0ef983a4f866")
+			(uuid "4ea29f0c-7144-493e-a590-04b790181427")
 		)
 		(pad "" np_thru_hole circle
 			(at 1.4 -4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "126a1caf-8122-4e0a-ba05-c2df65012784")
+			(uuid "3a16b353-5ef2-4e7b-b91a-e78c14c15f86")
 		)
 		(pad "" np_thru_hole circle
 			(at 1.4 4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "f370b637-0562-4b12-9243-7da29669e0b5")
+			(uuid "aa01145f-914f-4bd7-a98e-d3d88811f19f")
 		)
 		(embedded_fonts no)
 	)
@@ -2562,7 +1937,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
+		(property "Value" "2mm_Pad_5.2mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2575,7 +1950,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2588,7 +1963,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2601,50 +1976,14 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e6cdfa1-fd67-45f0-8318-8178cfdfa1c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/319787d4-c502-4634-86e8-9ce9ee884524")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.54 1.27)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ae570db0-b54f-49cd-aa9b-bed3fb6986d9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "f1282be0-697c-4b3f-a74e-77f77cb767fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
-			(size 5.4 5.4)
+			(size 5.2 5.2)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
@@ -2686,7 +2025,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2699,7 +2038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2712,7 +2051,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2725,47 +2064,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47bade46-5d31-4684-a96d-864ae47e54af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/935d6157-ba3f-424a-b504-929eab44642d")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "99f635f2-d33b-4466-9a1b-85ac7de57750")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "f7d2e979-ce92-4ee0-9703-9fdde69c83b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -2810,7 +2113,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
+		(property "Value" "2mm_Pad_5.2mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2823,7 +2126,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2836,7 +2139,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2849,50 +2152,14 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e369c06-633a-4643-bdbd-949dbc279c20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a0a228dc-da6e-49d5-826e-22519883ae3b")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.54 1.27)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "8918d43f-76e9-4961-96ea-b1b9cc8e7f80")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "2e6b3f03-260f-4925-88ee-5b8b48a057c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
-			(size 5.4 5.4)
+			(size 5.2 5.2)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
@@ -2973,19 +2240,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "954b1073-4b58-4255-8029-53a0e95cefba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/82938fd8-b6f1-4f0d-9acf-05afd98b7001")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
@@ -3002,7 +2256,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "3b7fee42-3ead-46ef-9913-7b28bed2557a")
+			(uuid "20633d48-5c4a-43d6-96a0-d9ac6b27cb15")
 		)
 		(fp_poly
 			(pts
@@ -3016,7 +2270,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "3a78a4d5-13da-44b6-8474-fd2376360260")
+			(uuid "3194a3ee-3949-429b-9299-fb180bb5fd25")
 		)
 		(fp_poly
 			(pts
@@ -3047,7 +2301,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "1c4d41af-940e-4e91-a468-c4a474ea1d1b")
+			(uuid "0b61f180-df36-479c-ad89-d0cbdb73f3b9")
 		)
 		(fp_poly
 			(pts
@@ -3125,7 +2379,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "6ede63ba-b4c1-4072-a7d8-4c61e0267189")
+			(uuid "f32bf6ce-9e6f-4e31-8900-cdff2c2e6cd3")
 		)
 		(fp_poly
 			(pts
@@ -3197,7 +2451,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "efb63521-0315-4e7f-a790-fb1ab7fff5f9")
+			(uuid "c66e66b0-28c5-4756-bb48-b4795d0084dd")
 		)
 		(fp_poly
 			(pts
@@ -3289,7 +2543,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "abc73c69-7e72-42d7-8b0e-c2cbaeefe653")
+			(uuid "0d4e88cc-1d1d-4a24-ae11-4229f4ce3b25")
 		)
 		(fp_poly
 			(pts
@@ -3377,7 +2631,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "f4d58441-85e3-456c-918c-e315eaaaef9b")
+			(uuid "f13432c5-97b9-4996-b908-8e03e3a3b2ec")
 		)
 		(fp_poly
 			(pts
@@ -3463,7 +2717,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "871bddfa-ee3a-4758-95b6-944147095d96")
+			(uuid "e957f7aa-ec98-4e4d-96b3-92bca62d1a8f")
 		)
 		(fp_poly
 			(pts
@@ -3477,7 +2731,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "f42ab8e8-1891-4170-a6ec-f710b37fa58f")
+			(uuid "9944d689-f2d3-4790-a9d5-aa52d1fc06fd")
 		)
 		(fp_poly
 			(pts
@@ -3491,7 +2745,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "ae4985d3-e29c-4e16-b159-cd1e67439f44")
+			(uuid "1ee340ad-464c-4691-b92f-3fe1784cb131")
 		)
 		(fp_poly
 			(pts
@@ -3522,7 +2776,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "8750e1a1-1fce-40c2-b9e4-d56dba8e4cee")
+			(uuid "b4e3cd80-443a-4ff6-8405-1e0138388138")
 		)
 		(fp_poly
 			(pts
@@ -3600,7 +2854,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "e3376f37-78e3-4f27-a8e5-3fac470488a4")
+			(uuid "d556b485-685b-449c-871a-07ec305f5d27")
 		)
 		(fp_poly
 			(pts
@@ -3672,7 +2926,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "644fec53-1640-400e-b6c9-eda4bf31ae7f")
+			(uuid "1f118509-1208-485c-9371-c6c74388840b")
 		)
 		(fp_poly
 			(pts
@@ -3764,7 +3018,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "2c555cb1-a45c-4cc0-b79c-2e5038136d23")
+			(uuid "c1805e65-e4de-4844-a205-f4ff8a5a6a30")
 		)
 		(fp_poly
 			(pts
@@ -3852,7 +3106,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "418ffa54-ed13-4d97-8855-fd1f5b8b8f4d")
+			(uuid "fb272db0-6014-4f29-a874-8d39088d2f15")
 		)
 		(fp_poly
 			(pts
@@ -3938,13 +3192,13 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "6ec81700-cd01-48c3-8c9f-07bff5b930dc")
+			(uuid "c4ac62b3-c2dc-467a-a886-aeb427e4fea6")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.Cu")
-			(uuid "cebae931-4248-4d98-8cec-8f4bcdfa1e73")
+			(uuid "4922d33d-2e75-4cce-86a5-f49e83736b58")
 			(hatch edge 0.508)
 			(connect_pads
 				(clearance 0)
@@ -3973,19 +3227,19 @@
 			)
 		)
 		(group ""
-			(uuid "a44b8868-e9ca-4a40-a5f2-81b908e0e4e1")
-			(members "1c4d41af-940e-4e91-a468-c4a474ea1d1b" "3a78a4d5-13da-44b6-8474-fd2376360260"
-				"3b7fee42-3ead-46ef-9913-7b28bed2557a" "6ede63ba-b4c1-4072-a7d8-4c61e0267189"
-				"871bddfa-ee3a-4758-95b6-944147095d96" "abc73c69-7e72-42d7-8b0e-c2cbaeefe653"
-				"efb63521-0315-4e7f-a790-fb1ab7fff5f9" "f4d58441-85e3-456c-918c-e315eaaaef9b"
+			(uuid "77fed016-7aff-4ca4-bc24-203d9808080e")
+			(members "0b61f180-df36-479c-ad89-d0cbdb73f3b9" "0d4e88cc-1d1d-4a24-ae11-4229f4ce3b25"
+				"20633d48-5c4a-43d6-96a0-d9ac6b27cb15" "3194a3ee-3949-429b-9299-fb180bb5fd25"
+				"c66e66b0-28c5-4756-bb48-b4795d0084dd" "e957f7aa-ec98-4e4d-96b3-92bca62d1a8f"
+				"f13432c5-97b9-4996-b908-8e03e3a3b2ec" "f32bf6ce-9e6f-4e31-8900-cdff2c2e6cd3"
 			)
 		)
 		(group ""
-			(uuid "0a8fdc96-d971-4617-bff1-0cc0ee28b44a")
-			(members "2c555cb1-a45c-4cc0-b79c-2e5038136d23" "418ffa54-ed13-4d97-8855-fd1f5b8b8f4d"
-				"644fec53-1640-400e-b6c9-eda4bf31ae7f" "6ec81700-cd01-48c3-8c9f-07bff5b930dc"
-				"8750e1a1-1fce-40c2-b9e4-d56dba8e4cee" "ae4985d3-e29c-4e16-b159-cd1e67439f44"
-				"e3376f37-78e3-4f27-a8e5-3fac470488a4" "f42ab8e8-1891-4170-a6ec-f710b37fa58f"
+			(uuid "290eca60-6e1b-4a25-8f56-bb9a09b99f90")
+			(members "1ee340ad-464c-4691-b92f-3fe1784cb131" "1f118509-1208-485c-9371-c6c74388840b"
+				"9944d689-f2d3-4790-a9d5-aa52d1fc06fd" "b4e3cd80-443a-4ff6-8405-1e0138388138"
+				"c1805e65-e4de-4844-a205-f4ff8a5a6a30" "c4ac62b3-c2dc-467a-a886-aeb427e4fea6"
+				"d556b485-685b-449c-871a-07ec305f5d27" "fb272db0-6014-4f29-a874-8d39088d2f15"
 			)
 		)
 		(embedded_fonts no)
@@ -4007,7 +3261,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4020,7 +3274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4033,7 +3287,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4046,47 +3300,11 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a88a163-2664-4728-8e54-f8ce6a501c9f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e8c9348e-ebf6-4575-9409-12a2a0754530")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.27 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "058ebd88-1d4d-48be-a0f7-8a8f5f27c22d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "c86c8750-b58a-41b6-93ba-c93f32bad7e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
 			(size 2.4 2.4)
@@ -4131,7 +3349,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
+		(property "Value" "2mm_Pad_5.2mm"
 			(at 0 6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4144,7 +3362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4157,7 +3375,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4170,50 +3388,14 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a56dddc-5ed5-4906-b47c-654d844c8c73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ff7338d3-651e-41af-8883-2fcfd9cca8c0")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.54 1.27)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "bd0cec26-33a3-4db4-8d75-3b9809ff40ea")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "33d55c51-79e6-4a0a-a85e-79d086613bb5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(pad "1" thru_hole custom
 			(at 0 0)
-			(size 5.4 5.4)
+			(size 5.2 5.2)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers yes)
@@ -4238,7 +3420,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "V2_Production:Order_Number"
+	(footprint "V2_Production:Revision"
 		(layer "B.Cu")
 		(uuid "4f161d4a-2553-461f-ba70-e111e78e2d2b")
 		(at 207 105 180)
@@ -4256,10 +3438,10 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Order_Number"
+		(property "Value" "~"
 			(at 0 -2.27 0)
 			(unlocked yes)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(hide yes)
 			(uuid "7829cabc-6e22-4aa5-9982-fb8831ab7ed9")
 			(effects
@@ -4271,36 +3453,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8bf9bbd1-b46e-4801-b289-22b7b35ae962")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d65eb5ca-7c0f-4e89-9b48-5f694d2692f8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ca03ee8b-e84c-4c78-9974-a713e6d4c634")
+			(uuid "8bf9bbd1-b46e-4801-b289-22b7b35ae962")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,15 +3466,15 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 180)
+		(property "Description" ""
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "97f75cc0-3d23-4067-8fd8-71f128bb1682")
+			(uuid "d65eb5ca-7c0f-4e89-9b48-5f694d2692f8")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4326,27 +3483,29 @@
 		(path "/7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(sheetname "/")
 		(sheetfile "express-cover.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_rect
-			(start -7 0.75)
-			(end 7 -0.75)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "B.CrtYd")
-			(uuid "53c68b83-0a3a-451d-aa4f-f494bae7e3c6")
-		)
-		(fp_text user "${Order-Number}"
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_text user "${REVISION} (${ISSUE_DATE})"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "d79a0f7d-c3f0-4f9e-a132-4cf8e0d3c68f")
+			(uuid "646b0e54-d7e1-4e36-8627-b280682031da")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.75 0.75)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REVISION} (${ISSUE_DATE})"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "090bcf36-14c7-4345-99a5-fa1d08661b38")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 				(justify mirror)
 			)
@@ -4363,6 +3522,17 @@
 		(layer "Edge.Cuts")
 		(uuid "5f5b5c74-4538-4ce6-9877-e6051dd1e9e5")
 	)
+	(gr_arc
+		(start 117 81)
+		(mid 117.292893 80.292893)
+		(end 118 80)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea7611d1-a8fc-4a96-a4f9-68f051a76626")
+	)
 	(gr_line
 		(start 118 80)
 		(end 296 80)
@@ -4372,16 +3542,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "781e9210-fb78-4c74-8009-42614b626542")
-	)
-	(gr_line
-		(start 297 81)
-		(end 297 114)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bcc6de3c-9438-4f23-a9db-04070d3d2f8a")
 	)
 	(gr_arc
 		(start 118 115)
@@ -4394,27 +3554,15 @@
 		(layer "Edge.Cuts")
 		(uuid "d35ceb07-996f-436a-8bdf-75d18216a73c")
 	)
-	(gr_arc
-		(start 297 114)
-		(mid 296.707107 114.707107)
+	(gr_line
+		(start 118 115)
 		(end 296 115)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "db2e5211-7e6a-42a9-b2df-00728afba574")
-	)
-	(gr_arc
-		(start 117 81)
-		(mid 117.292893 80.292893)
-		(end 118 80)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ea7611d1-a8fc-4a96-a4f9-68f051a76626")
+		(uuid "f5a4bab0-e4db-44b9-b196-4e680a91cf47")
 	)
 	(gr_arc
 		(start 296 80)
@@ -4428,14 +3576,25 @@
 		(uuid "f02c980d-a3c1-4ba1-a448-fb3e14753a73")
 	)
 	(gr_line
-		(start 118 115)
+		(start 297 81)
+		(end 297 114)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bcc6de3c-9438-4f23-a9db-04070d3d2f8a")
+	)
+	(gr_arc
+		(start 297 114)
+		(mid 296.707107 114.707107)
 		(end 296 115)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f5a4bab0-e4db-44b9-b196-4e680a91cf47")
+		(uuid "db2e5211-7e6a-42a9-b2df-00728afba574")
 	)
 	(zone
 		(net 1)
