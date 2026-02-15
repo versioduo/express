@@ -11,6 +11,176 @@
 		(company "Versio Duo")
 	)
 	(lib_symbols
+		(symbol "V2_Capacitor:0603_0u022"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.032 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0u022"
+				(at 2.032 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Capacitor_SMD:C_0603"
+				(at 0 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "603-CC603KPX7R9BB223"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CC0603KPX7R9BB223"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_0u022_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_0u022_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "V2_Connector_Audio:SJ2-25404B-SMT-TR"
 			(pin_names
 				(offset 0.635)
@@ -425,675 +595,6 @@
 					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:C_0603_0u022"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 2.032 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0u022"
-				(at 2.032 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "603-CC603KPX7R9BB223"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CC0603KPX7R9BB223"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0603_0u022_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0603_0u022_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_100k"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100k"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-CRCW0603100KFKEAC"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "100mW"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW0603100KFKEAC"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_100k_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_100k_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_1k"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.778 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1k"
-				(at 1.778 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-CRCW06031K00FKEAH"
-				(at 0 -25.4 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW06031K00FKEAHP"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "330mW"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_1k_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_1k_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_33R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "33R"
-				(at 1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-CRCW060333R0FKEAH"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW060333R0FKEAHP"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "330mW"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_33R_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_33R_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1719,6 +1220,505 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "V2_Resistor:0603_100k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "100k"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW0603100KFKEAC"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "100mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW0603100KFKEAC"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_100k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_100k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_1k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1k"
+				(at 1.778 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW06031K00FKEAH"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW06031K00FKEAHP"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "330mW"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_1k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_1k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_33R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "33R"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW060333R0FKEAH"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW060333R0FKEAHP"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "330mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_33R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_33R_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "V2_power:+3V3"
 			(power)
 			(pin_numbers
@@ -2282,7 +2282,7 @@
 		(uuid "e1238946-fc89-4415-8808-3de40d734017")
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_33R")
+		(lib_id "V2_Resistor:0603_33R")
 		(at 140.97 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2447,7 +2447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_1k")
+		(lib_id "V2_Resistor:0603_1k")
 		(at 154.94 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2621,7 +2621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f4fb8a7-3c25-4cde-a816-f7eba0b497a1")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR201"
 			(at 140.97 82.55 0)
 			(effects
 				(font
@@ -2671,67 +2671,67 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b9f3107-ef70-49e9-a809-386f50e62a79"
-					(reference "#PWR0501")
+					(reference "#PWR501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/312347d7-84e6-4268-a248-c9b2a36bb6f6"
-					(reference "#PWR01401")
+					(reference "#PWR1401")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/47562554-feb5-45f8-a0f8-2d2a3893dfc3"
-					(reference "#PWR01101")
+					(reference "#PWR1101")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/67537a41-8b60-447c-a5a6-7033ce89e093"
-					(reference "#PWR01701")
+					(reference "#PWR1701")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8c416fb8-c0ba-4bfa-ac48-05a844c0bd05"
-					(reference "#PWR0301")
+					(reference "#PWR301")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8f66e91c-13b0-4c90-9031-a05e96765c69"
-					(reference "#PWR0701")
+					(reference "#PWR701")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/96943c6a-c737-490e-a103-5b172ba6d4d3"
-					(reference "#PWR01501")
+					(reference "#PWR1501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/970e7b1b-3d39-40bf-a881-e4c7b552e176"
-					(reference "#PWR0201")
+					(reference "#PWR201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a78be59b-023a-46a1-9cb2-51407c37669a"
-					(reference "#PWR0401")
+					(reference "#PWR401")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bb3901a8-5d47-4234-bca5-b638135d1ffb"
-					(reference "#PWR01201")
+					(reference "#PWR1201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bdd0a9be-2845-432f-aabb-f6e051c3d5c8"
-					(reference "#PWR01601")
+					(reference "#PWR1601")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d1132e7e-a0f6-4fe0-a93b-80f9a13e882b"
-					(reference "#PWR0601")
+					(reference "#PWR601")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d7a0d8f1-4b44-42b1-8634-8319ce87a700"
-					(reference "#PWR0801")
+					(reference "#PWR801")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e4570eee-0b80-4673-b35d-36d8f934c951"
-					(reference "#PWR01301")
+					(reference "#PWR1301")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8e94c36-4a29-46f6-83bd-843a652953f4"
-					(reference "#PWR0901")
+					(reference "#PWR901")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f5b3513e-a1ff-4f01-bbcd-dc6c405b4bcc"
-					(reference "#PWR01001")
+					(reference "#PWR1001")
 					(unit 1)
 				)
 			)
@@ -2747,7 +2747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54f57634-9340-4aea-9328-638417e81d71")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR203"
 			(at 140.97 113.03 0)
 			(effects
 				(font
@@ -2798,67 +2798,67 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b9f3107-ef70-49e9-a809-386f50e62a79"
-					(reference "#PWR0503")
+					(reference "#PWR503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/312347d7-84e6-4268-a248-c9b2a36bb6f6"
-					(reference "#PWR01403")
+					(reference "#PWR1403")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/47562554-feb5-45f8-a0f8-2d2a3893dfc3"
-					(reference "#PWR01103")
+					(reference "#PWR1103")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/67537a41-8b60-447c-a5a6-7033ce89e093"
-					(reference "#PWR01703")
+					(reference "#PWR1703")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8c416fb8-c0ba-4bfa-ac48-05a844c0bd05"
-					(reference "#PWR0303")
+					(reference "#PWR303")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8f66e91c-13b0-4c90-9031-a05e96765c69"
-					(reference "#PWR0703")
+					(reference "#PWR703")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/96943c6a-c737-490e-a103-5b172ba6d4d3"
-					(reference "#PWR01503")
+					(reference "#PWR1503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/970e7b1b-3d39-40bf-a881-e4c7b552e176"
-					(reference "#PWR0203")
+					(reference "#PWR203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a78be59b-023a-46a1-9cb2-51407c37669a"
-					(reference "#PWR0403")
+					(reference "#PWR403")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bb3901a8-5d47-4234-bca5-b638135d1ffb"
-					(reference "#PWR01203")
+					(reference "#PWR1203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bdd0a9be-2845-432f-aabb-f6e051c3d5c8"
-					(reference "#PWR01603")
+					(reference "#PWR1603")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d1132e7e-a0f6-4fe0-a93b-80f9a13e882b"
-					(reference "#PWR0603")
+					(reference "#PWR603")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d7a0d8f1-4b44-42b1-8634-8319ce87a700"
-					(reference "#PWR0803")
+					(reference "#PWR803")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e4570eee-0b80-4673-b35d-36d8f934c951"
-					(reference "#PWR01303")
+					(reference "#PWR1303")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8e94c36-4a29-46f6-83bd-843a652953f4"
-					(reference "#PWR0903")
+					(reference "#PWR903")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f5b3513e-a1ff-4f01-bbcd-dc6c405b4bcc"
-					(reference "#PWR01003")
+					(reference "#PWR1003")
 					(unit 1)
 				)
 			)
@@ -2874,7 +2874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c53a77d-f05e-4acd-b331-cf0c59fd3697")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR206"
 			(at 160.02 134.62 0)
 			(effects
 				(font
@@ -2925,67 +2925,67 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b9f3107-ef70-49e9-a809-386f50e62a79"
-					(reference "#PWR0506")
+					(reference "#PWR506")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/312347d7-84e6-4268-a248-c9b2a36bb6f6"
-					(reference "#PWR01406")
+					(reference "#PWR1406")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/47562554-feb5-45f8-a0f8-2d2a3893dfc3"
-					(reference "#PWR01106")
+					(reference "#PWR1106")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/67537a41-8b60-447c-a5a6-7033ce89e093"
-					(reference "#PWR01706")
+					(reference "#PWR1706")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8c416fb8-c0ba-4bfa-ac48-05a844c0bd05"
-					(reference "#PWR0306")
+					(reference "#PWR306")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8f66e91c-13b0-4c90-9031-a05e96765c69"
-					(reference "#PWR0706")
+					(reference "#PWR706")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/96943c6a-c737-490e-a103-5b172ba6d4d3"
-					(reference "#PWR01506")
+					(reference "#PWR1506")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/970e7b1b-3d39-40bf-a881-e4c7b552e176"
-					(reference "#PWR0206")
+					(reference "#PWR206")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a78be59b-023a-46a1-9cb2-51407c37669a"
-					(reference "#PWR0406")
+					(reference "#PWR406")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bb3901a8-5d47-4234-bca5-b638135d1ffb"
-					(reference "#PWR01206")
+					(reference "#PWR1206")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bdd0a9be-2845-432f-aabb-f6e051c3d5c8"
-					(reference "#PWR01606")
+					(reference "#PWR1606")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d1132e7e-a0f6-4fe0-a93b-80f9a13e882b"
-					(reference "#PWR0606")
+					(reference "#PWR606")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d7a0d8f1-4b44-42b1-8634-8319ce87a700"
-					(reference "#PWR0806")
+					(reference "#PWR806")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e4570eee-0b80-4673-b35d-36d8f934c951"
-					(reference "#PWR01306")
+					(reference "#PWR1306")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8e94c36-4a29-46f6-83bd-843a652953f4"
-					(reference "#PWR0906")
+					(reference "#PWR906")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f5b3513e-a1ff-4f01-bbcd-dc6c405b4bcc"
-					(reference "#PWR01006")
+					(reference "#PWR1006")
 					(unit 1)
 				)
 			)
@@ -3001,7 +3001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab3996f-e2d4-4cca-ae05-3a41ec09b1a3")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR204"
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -3052,67 +3052,67 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b9f3107-ef70-49e9-a809-386f50e62a79"
-					(reference "#PWR0504")
+					(reference "#PWR504")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/312347d7-84e6-4268-a248-c9b2a36bb6f6"
-					(reference "#PWR01404")
+					(reference "#PWR1404")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/47562554-feb5-45f8-a0f8-2d2a3893dfc3"
-					(reference "#PWR01104")
+					(reference "#PWR1104")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/67537a41-8b60-447c-a5a6-7033ce89e093"
-					(reference "#PWR01704")
+					(reference "#PWR1704")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8c416fb8-c0ba-4bfa-ac48-05a844c0bd05"
-					(reference "#PWR0304")
+					(reference "#PWR304")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8f66e91c-13b0-4c90-9031-a05e96765c69"
-					(reference "#PWR0704")
+					(reference "#PWR704")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/96943c6a-c737-490e-a103-5b172ba6d4d3"
-					(reference "#PWR01504")
+					(reference "#PWR1504")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/970e7b1b-3d39-40bf-a881-e4c7b552e176"
-					(reference "#PWR0204")
+					(reference "#PWR204")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a78be59b-023a-46a1-9cb2-51407c37669a"
-					(reference "#PWR0404")
+					(reference "#PWR404")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bb3901a8-5d47-4234-bca5-b638135d1ffb"
-					(reference "#PWR01204")
+					(reference "#PWR1204")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bdd0a9be-2845-432f-aabb-f6e051c3d5c8"
-					(reference "#PWR01604")
+					(reference "#PWR1604")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d1132e7e-a0f6-4fe0-a93b-80f9a13e882b"
-					(reference "#PWR0604")
+					(reference "#PWR604")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d7a0d8f1-4b44-42b1-8634-8319ce87a700"
-					(reference "#PWR0804")
+					(reference "#PWR804")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e4570eee-0b80-4673-b35d-36d8f934c951"
-					(reference "#PWR01304")
+					(reference "#PWR1304")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8e94c36-4a29-46f6-83bd-843a652953f4"
-					(reference "#PWR0904")
+					(reference "#PWR904")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f5b3513e-a1ff-4f01-bbcd-dc6c405b4bcc"
-					(reference "#PWR01004")
+					(reference "#PWR1004")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u022")
+		(lib_id "V2_Capacitor:0603_0u022")
 		(at 198.12 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3618,7 +3618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f0f878-d290-487a-b8df-ddd7bd816139")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR207"
 			(at 170.18 139.7 0)
 			(effects
 				(font
@@ -3670,67 +3670,67 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b9f3107-ef70-49e9-a809-386f50e62a79"
-					(reference "#PWR0507")
+					(reference "#PWR507")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/312347d7-84e6-4268-a248-c9b2a36bb6f6"
-					(reference "#PWR01407")
+					(reference "#PWR1407")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/47562554-feb5-45f8-a0f8-2d2a3893dfc3"
-					(reference "#PWR01107")
+					(reference "#PWR1107")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/67537a41-8b60-447c-a5a6-7033ce89e093"
-					(reference "#PWR01707")
+					(reference "#PWR1707")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8c416fb8-c0ba-4bfa-ac48-05a844c0bd05"
-					(reference "#PWR0307")
+					(reference "#PWR307")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8f66e91c-13b0-4c90-9031-a05e96765c69"
-					(reference "#PWR0707")
+					(reference "#PWR707")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/96943c6a-c737-490e-a103-5b172ba6d4d3"
-					(reference "#PWR01507")
+					(reference "#PWR1507")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/970e7b1b-3d39-40bf-a881-e4c7b552e176"
-					(reference "#PWR0207")
+					(reference "#PWR207")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a78be59b-023a-46a1-9cb2-51407c37669a"
-					(reference "#PWR0407")
+					(reference "#PWR407")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bb3901a8-5d47-4234-bca5-b638135d1ffb"
-					(reference "#PWR01207")
+					(reference "#PWR1207")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bdd0a9be-2845-432f-aabb-f6e051c3d5c8"
-					(reference "#PWR01607")
+					(reference "#PWR1607")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d1132e7e-a0f6-4fe0-a93b-80f9a13e882b"
-					(reference "#PWR0607")
+					(reference "#PWR607")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d7a0d8f1-4b44-42b1-8634-8319ce87a700"
-					(reference "#PWR0807")
+					(reference "#PWR807")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e4570eee-0b80-4673-b35d-36d8f934c951"
-					(reference "#PWR01307")
+					(reference "#PWR1307")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8e94c36-4a29-46f6-83bd-843a652953f4"
-					(reference "#PWR0907")
+					(reference "#PWR907")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f5b3513e-a1ff-4f01-bbcd-dc6c405b4bcc"
-					(reference "#PWR01007")
+					(reference "#PWR1007")
 					(unit 1)
 				)
 			)
@@ -3746,7 +3746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5db2f71-e19e-43f7-baad-1d7f33a2328d")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR205"
 			(at 166.37 115.57 0)
 			(effects
 				(font
@@ -3797,67 +3797,67 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b9f3107-ef70-49e9-a809-386f50e62a79"
-					(reference "#PWR0505")
+					(reference "#PWR505")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/312347d7-84e6-4268-a248-c9b2a36bb6f6"
-					(reference "#PWR01405")
+					(reference "#PWR1405")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/47562554-feb5-45f8-a0f8-2d2a3893dfc3"
-					(reference "#PWR01105")
+					(reference "#PWR1105")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/67537a41-8b60-447c-a5a6-7033ce89e093"
-					(reference "#PWR01705")
+					(reference "#PWR1705")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8c416fb8-c0ba-4bfa-ac48-05a844c0bd05"
-					(reference "#PWR0305")
+					(reference "#PWR305")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8f66e91c-13b0-4c90-9031-a05e96765c69"
-					(reference "#PWR0705")
+					(reference "#PWR705")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/96943c6a-c737-490e-a103-5b172ba6d4d3"
-					(reference "#PWR01505")
+					(reference "#PWR1505")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/970e7b1b-3d39-40bf-a881-e4c7b552e176"
-					(reference "#PWR0205")
+					(reference "#PWR205")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a78be59b-023a-46a1-9cb2-51407c37669a"
-					(reference "#PWR0405")
+					(reference "#PWR405")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bb3901a8-5d47-4234-bca5-b638135d1ffb"
-					(reference "#PWR01205")
+					(reference "#PWR1205")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bdd0a9be-2845-432f-aabb-f6e051c3d5c8"
-					(reference "#PWR01605")
+					(reference "#PWR1605")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d1132e7e-a0f6-4fe0-a93b-80f9a13e882b"
-					(reference "#PWR0605")
+					(reference "#PWR605")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d7a0d8f1-4b44-42b1-8634-8319ce87a700"
-					(reference "#PWR0805")
+					(reference "#PWR805")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e4570eee-0b80-4673-b35d-36d8f934c951"
-					(reference "#PWR01305")
+					(reference "#PWR1305")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8e94c36-4a29-46f6-83bd-843a652953f4"
-					(reference "#PWR0905")
+					(reference "#PWR905")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f5b3513e-a1ff-4f01-bbcd-dc6c405b4bcc"
-					(reference "#PWR01005")
+					(reference "#PWR1005")
 					(unit 1)
 				)
 			)
@@ -3872,7 +3872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1d12246-2307-4815-b8c8-73306f3087bc")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR202"
 			(at 130.81 81.28 0)
 			(effects
 				(font
@@ -3923,67 +3923,67 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1b9f3107-ef70-49e9-a809-386f50e62a79"
-					(reference "#PWR0502")
+					(reference "#PWR502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/312347d7-84e6-4268-a248-c9b2a36bb6f6"
-					(reference "#PWR01402")
+					(reference "#PWR1402")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/47562554-feb5-45f8-a0f8-2d2a3893dfc3"
-					(reference "#PWR01102")
+					(reference "#PWR1102")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/67537a41-8b60-447c-a5a6-7033ce89e093"
-					(reference "#PWR01702")
+					(reference "#PWR1702")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8c416fb8-c0ba-4bfa-ac48-05a844c0bd05"
-					(reference "#PWR0302")
+					(reference "#PWR302")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/8f66e91c-13b0-4c90-9031-a05e96765c69"
-					(reference "#PWR0702")
+					(reference "#PWR702")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/96943c6a-c737-490e-a103-5b172ba6d4d3"
-					(reference "#PWR01502")
+					(reference "#PWR1502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/970e7b1b-3d39-40bf-a881-e4c7b552e176"
-					(reference "#PWR0202")
+					(reference "#PWR202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a78be59b-023a-46a1-9cb2-51407c37669a"
-					(reference "#PWR0402")
+					(reference "#PWR402")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bb3901a8-5d47-4234-bca5-b638135d1ffb"
-					(reference "#PWR01202")
+					(reference "#PWR1202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/bdd0a9be-2845-432f-aabb-f6e051c3d5c8"
-					(reference "#PWR01602")
+					(reference "#PWR1602")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d1132e7e-a0f6-4fe0-a93b-80f9a13e882b"
-					(reference "#PWR0602")
+					(reference "#PWR602")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d7a0d8f1-4b44-42b1-8634-8319ce87a700"
-					(reference "#PWR0802")
+					(reference "#PWR802")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e4570eee-0b80-4673-b35d-36d8f934c951"
-					(reference "#PWR01302")
+					(reference "#PWR1302")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8e94c36-4a29-46f6-83bd-843a652953f4"
-					(reference "#PWR0902")
+					(reference "#PWR902")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/f5b3513e-a1ff-4f01-bbcd-dc6c405b4bcc"
-					(reference "#PWR01002")
+					(reference "#PWR1002")
 					(unit 1)
 				)
 			)
@@ -4308,7 +4308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_100k")
+		(lib_id "V2_Resistor:0603_100k")
 		(at 140.97 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)

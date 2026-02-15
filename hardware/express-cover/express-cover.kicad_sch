@@ -905,12 +905,6 @@
 		(uuid "ae5dae20-76c5-44b5-93a7-fb5717b7573a")
 	)
 	(junction
-		(at 82.55 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6f64c94-14a7-4dc3-8b78-0ceca92d9269")
-	)
-	(junction
 		(at 184.15 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1274,7 +1268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4e79af-87a6-451a-bc1e-a7a5f3a5f853")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR103"
 			(at 184.15 102.87 0)
 			(effects
 				(font
@@ -1325,7 +1319,7 @@
 		(instances
 			(project "express-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0103")
+					(reference "#PWR103")
 					(unit 1)
 				)
 			)
@@ -1542,7 +1536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4482eba5-060e-49dd-95eb-a43533048caf")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR101"
 			(at 82.55 85.09 0)
 			(effects
 				(font
@@ -1593,7 +1587,7 @@
 		(instances
 			(project "express-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0101")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -1661,6 +1655,73 @@
 			(project "express-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "H109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:GND")
+		(at 86.36 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d44c698-6ad2-4b69-a4ed-d4d42b37997d")
+		(property "Reference" "#PWR0104"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3508fc54-846e-462d-834e-9fa0e9bc8229")
+		)
+		(instances
+			(project "express-cover"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2486,7 +2547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a50a0e1e-930b-404a-ada6-bac9a00d1133")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR102"
 			(at 134.62 102.87 0)
 			(effects
 				(font
@@ -2537,7 +2598,7 @@
 		(instances
 			(project "express-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0102")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
@@ -2746,15 +2807,15 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 82.55 78.74 90)
+		(at 86.36 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e995d846-5a83-4b77-a7d8-b01029861643")
-		(property "Reference" "#FLG0101"
-			(at 80.645 78.74 0)
+		(property "Reference" "#FLG101"
+			(at 86.36 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2824,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 73.66 78.74 90)
+			(at 74.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 78.74 0)
+			(at 86.36 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 78.74 0)
+			(at 86.36 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2850,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 82.55 78.74 0)
+			(at 86.36 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2864,7 @@
 		(instances
 			(project "express-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0101")
+					(reference "#FLG101")
 					(unit 1)
 				)
 			)
