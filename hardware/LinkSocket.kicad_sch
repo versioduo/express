@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 express")
-		(date "2026-03-30")
-		(rev "2026-03-30")
-		(company "Socket")
+		(date "2026-04-14")
+		(rev "2026-04-14")
+		(company "Versio Duo")
+		(comment 1 "Expression Controller")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -252,7 +253,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Horizontal"
-				(at 0 -12.7 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -274,7 +275,7 @@
 				)
 			)
 			(property "Description" "Amphenol – Minitek127"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -285,7 +286,29 @@
 				)
 			)
 			(property "Mouser" "649-200211120001T4LF"
+				(at 0 -27.94 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Amphenol FCI"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Product" "20021112-00010T4LF"
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -306,19 +329,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Amphenol FCI"
-				(at 0 -17.78 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Product" "20021112-00010T4LF"
-				(at 0 -20.32 0)
+			(property "Rating" "1A"
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -585,7 +597,29 @@
 				)
 			)
 			(property "Mouser" "595-THVD2442DRCR"
-				(at 0 -35.56 0)
+				(at 0 -36.83 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Product" "THVD2442DRCR "
+				(at 0 -34.29 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 -29.21 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -606,19 +640,8 @@
 					)
 				)
 			)
-			(property "Product" "THVD2442DRCR "
-				(at 0 -33.02 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 -30.48 0)
+			(property "Rating" "20Mbps"
+				(at 1.27 -39.37 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1047,23 +1070,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100R"
-				(at 3.81 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "100R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
@@ -1244,7 +1269,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1959,7 +1984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "013134c2-c495-4752-a9f3-dcc418142145")
-		(property "Reference" "#PWR1901"
+		(property "Reference" "#PWR01903"
 			(at 152.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2019,7 +2044,7 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a5e4011d-0648-49f6-bc12-38b54bd48e3d"
-					(reference "#PWR1901")
+					(reference "#PWR01903")
 					(unit 1)
 				)
 			)
@@ -2135,6 +2160,17 @@
 				)
 			)
 		)
+		(property "Rating" "20Mbps"
+			(at 153.67 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3251e8f3-5957-44d4-9aed-c633a1ada1c8")
 		)
@@ -2188,7 +2224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c2b6e53-6c81-4855-a907-696635136821")
-		(property "Reference" "#PWR1904"
+		(property "Reference" "#PWR01901"
 			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -2249,7 +2285,7 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a5e4011d-0648-49f6-bc12-38b54bd48e3d"
-					(reference "#PWR1904")
+					(reference "#PWR01901")
 					(unit 1)
 				)
 			)
@@ -2266,7 +2302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cd5c335-1966-4dfd-b071-991164f7d6fd")
-		(property "Reference" "#PWR1903"
+		(property "Reference" "#PWR01904"
 			(at 152.4 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2327,7 +2363,7 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a5e4011d-0648-49f6-bc12-38b54bd48e3d"
-					(reference "#PWR1903")
+					(reference "#PWR01904")
 					(unit 1)
 				)
 			)
@@ -2344,7 +2380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "787831d5-b5ee-4f7d-9a05-eca8315877e8")
-		(property "Reference" "#PWR1902"
+		(property "Reference" "#PWR01907"
 			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2405,7 +2441,7 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a5e4011d-0648-49f6-bc12-38b54bd48e3d"
-					(reference "#PWR1902")
+					(reference "#PWR01907")
 					(unit 1)
 				)
 			)
@@ -2556,7 +2592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c24a3bb8-0e10-4661-bef3-637b26771bc3")
-		(property "Reference" "#PWR1907"
+		(property "Reference" "#PWR01906"
 			(at 165.1 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -2617,7 +2653,7 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a5e4011d-0648-49f6-bc12-38b54bd48e3d"
-					(reference "#PWR1907")
+					(reference "#PWR01906")
 					(unit 1)
 				)
 			)
@@ -2722,6 +2758,17 @@
 		)
 		(property "Id" "Header:${SYMBOL_NAME}"
 			(at 152.4 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2916,7 +2963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4f7cb67-659e-48cf-891a-d33dd94ae12e")
-		(property "Reference" "#PWR1906"
+		(property "Reference" "#PWR01902"
 			(at 149.86 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -2976,7 +3023,7 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a5e4011d-0648-49f6-bc12-38b54bd48e3d"
-					(reference "#PWR1906")
+					(reference "#PWR01902")
 					(unit 1)
 				)
 			)
@@ -2993,7 +3040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f51b6a91-c5d9-4189-94bb-77bc9d3f6b46")
-		(property "Reference" "#PWR1905"
+		(property "Reference" "#PWR01905"
 			(at 154.94 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3053,7 +3100,7 @@
 		(instances
 			(project "express"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a5e4011d-0648-49f6-bc12-38b54bd48e3d"
-					(reference "#PWR1905")
+					(reference "#PWR01905")
 					(unit 1)
 				)
 			)
