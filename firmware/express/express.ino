@@ -7,7 +7,7 @@
 #include <V2MIDI.h>
 #include <V2Potentiometer.h>
 
-V2DEVICE_METADATA("com.versioduo.express", 24, "versioduo:samd:express");
+V2DEVICE_METADATA("com.versioduo.express", 25, "versioduo:samd:express");
 
 namespace {
   constexpr struct {
@@ -129,7 +129,6 @@ namespace {
       _measureUsec = 0;
       _eventsUsec  = V2Base::getUsec();
       _rainbow     = 0;
-      _midi        = {};
     }
 
     void allNotesOff() {
@@ -166,8 +165,8 @@ namespace {
     }
 
     bool handleSend(V2MIDI::Packet* midi) override {
-      usb.midi.send(midi);
-      Plug.send(midi);
+      usb.midi.send(*midi);
+      Plug.send(*midi);
       return true;
     }
 
@@ -389,20 +388,21 @@ namespace {
   class MIDI {
   public:
     void loop() {
-      if (!Device.usb.midi.receive(&_midi))
+      if (!Device.usb.midi.receive(_midi))
         return;
 
-      if (_midi.getPort() == 0) {
+      if (_midi.port == 0) {
         Device.dispatch(&Device.usb.midi, &_midi);
 
       } else {
-        _midi.setPort(_midi.getPort() - 1);
-        Socket.send(&_midi);
+        V2Link::Packet p(_midi.port - 1, _midi);
+        p.midi.port = 0;
+        Socket.send(p);
       }
     }
 
   private:
-    V2MIDI::Packet _midi{};
+    V2MIDI::Packet _midi;
   } MIDI;
 
   // Dispatch Link packets.
@@ -413,39 +413,26 @@ namespace {
     }
 
   private:
-    V2MIDI::Packet _midi{};
-
     // Receive a host event from our parent device.
-    void receivePlug(V2Link::Packet* packet) override {
-      if (packet->getType() == V2Link::Packet::Type::MIDI) {
-        packet->copyTo(_midi);
-        Device.dispatch(&Plug, &_midi);
-      }
+    void receivePlug(V2Link::Packet& p) override {
+      if (p.type == V2Link::Packet::Type::MIDI)
+        Device.dispatch(&Plug, &p.midi);
     }
 
     // Forward children device events to the host.
-    void receiveSocket(V2Link::Packet* packet) override {
-      if (packet->getType() == V2Link::Packet::Type::MIDI) {
-        uint8_t address = packet->getAddress();
-        if (address == 0x0f)
-          return;
-
-        if (Device.usb.midi.connected()) {
-          packet->copyTo(_midi);
-          _midi.setPort(address + 1);
-          Device.usb.midi.send(&_midi);
-        }
+    void receiveSocket(V2Link::Packet& p) override {
+      if (p.type == V2Link::Packet::Type::MIDI) {
+        p.midi.port = p.address;
+        Device.usb.midi.send(p.midi);
       }
     }
   } Link;
 }
 
-void setup() {
+auto setup() -> void {
   Serial.begin(9600);
-
   LED.begin();
   LED.setMaxBrightness(0.5);
-
   Plug.begin();
   Socket.begin();
   Device.link = &Link;
@@ -468,7 +455,7 @@ void setup() {
   Device.reset();
 }
 
-void loop() {
+auto loop() -> void {
   LED.loop();
   MIDI.loop();
   Link.loop();
