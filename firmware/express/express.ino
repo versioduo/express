@@ -7,7 +7,7 @@
 #include <V2MIDI.h>
 #include <V2Potentiometer.h>
 
-V2DEVICE_METADATA("com.versioduo.express", 25, "versioduo:samd:express");
+V2DEVICE_METADATA("com.versioduo.express", 26, "versioduo:samd:express");
 
 namespace {
   constexpr struct {
@@ -440,7 +440,7 @@ auto setup() -> void {
   // Set the SERCOM interrupt priority, it requires a stable ~300 kHz interrupt
   // frequency. This needs to be after begin().
   setSerialPriority(&SerialPlug, 2);
-  setSerialPriority(&SerialSocket, 2);
+  setSerialPriority(&SerialSocket, 1);
 
   for (uint8_t i{}; i < V2Base::countof(ADC); i++)
     ADC[i].begin();
